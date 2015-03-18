@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="30dp" >
+    </View>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@android:color/holo_blue_light"
+        android:text="Elektrotehnika"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/holo_blue_bright" />
+
+    <Button
+        android:id="@+id/Button1"
+        android:layout_width="206dp"
+        android:layout_height="44dp"
+        android:onClick="OpenIt"
+        android:text="1. godina"
+        android:textColor="@android:color/holo_blue_bright" />
+
+    <Button
+        android:id="@+id/Button2"
+        android:layout_width="206dp"
+        android:layout_height="44dp"
+        android:onClick="OpenIt"
+        android:text="2. godina"
+        android:textColor="@android:color/holo_blue_bright" />
+
+    <Button
+        android:id="@+id/Button3"
+        android:layout_width="206dp"
+        android:layout_height="44dp"
+        android:onClick="OpenIt"
+        android:text="3. godina"
+        android:textColor="@android:color/holo_blue_bright" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="30dp" >
+    </View>
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Računarstvo"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/holo_blue_bright" />
+
+    <Button
+        android:id="@+id/Button4"
+        android:layout_width="206dp"
+        android:layout_height="44dp"
+        android:onClick="OpenIt"
+        android:text="1. godina"
+        android:textColor="@android:color/holo_blue_bright" />
+
+    <Button
+        android:id="@+id/Button5"
+        android:layout_width="206dp"
+        android:layout_height="44dp"
+        android:onClick="OpenIt"
+        android:text="2. godina"
+        android:textColor="@android:color/holo_blue_bright" />
+
+    <Button
+        android:id="@+id/Button6"
+        android:layout_width="206dp"
+        android:layout_height="44dp"
+        android:onClick="OpenIt"
+        android:text="3. godina"
+        android:textColor="@android:color/holo_blue_bright" />
+
+</LinearLayout>
